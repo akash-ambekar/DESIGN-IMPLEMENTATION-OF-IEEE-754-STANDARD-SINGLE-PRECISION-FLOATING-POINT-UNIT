@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="user_fatal" file="PostProcessors" num="0" delta="new" >BISWriter does not provide support for device <arg fmt="%s" index="1">artix7</arg>. Please use write_ibis from the TCL console in Vivado. More information on how to export IBIS files can be found in the PlanAhead User Guide on www.xilinx.com/documentaton. Use ibiswriter -h to list supported architectures. 
+</msg>
+
+</messages>
+

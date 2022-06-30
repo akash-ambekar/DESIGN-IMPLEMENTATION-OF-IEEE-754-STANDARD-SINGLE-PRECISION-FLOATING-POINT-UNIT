@@ -1,0 +1,12 @@
+set -loop_iteration_limit 1000
+run
+-ifn ieee754.prj
+-top ieee754
+-p xc7a100tcsg324-3
+-ofn ieee754.ngc
+-opt_mode speed
+-opt_level 2
+-register_balancing yes
+-lc auto
+-iob true
+-bufg 16

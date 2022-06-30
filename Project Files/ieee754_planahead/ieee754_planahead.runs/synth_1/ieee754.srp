@@ -1,0 +1,1401 @@
+Release 14.5 - xst P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: ieee754.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ieee754.prj"
+
+---- Target Parameters
+Target Device                      : xc7a100tcsg324-3
+Output File Name                   : "ieee754.ngc"
+
+---- Source Options
+Top Module Name                    : ieee754
+Automatic Register Balancing       : yes
+
+---- Target Options
+LUT Combining                      : auto
+Pack IO Registers into IOBs        : true
+Add Generic Clock Buffer(BUFG)     : 16
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 2
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" into library work
+Parsing module <mul_normaliser>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" into library work
+Parsing module <adder_normaliser>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/multiplier.v" into library work
+Parsing module <multiplier>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/adder.v" into library work
+Parsing module <adder>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/reciprocal.v" into library work
+Parsing module <reciprocal>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/divider.v" into library work
+Parsing module <divider>.
+Analyzing Verilog file "C:/Users/Lenovo/Documents/ieee754 main project backup/ieee754.v" into library work
+Parsing module <ieee754>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ieee754>.
+WARNING:HDLCompiler:1127 - "C:/Users/Lenovo/Documents/ieee754 main project backup/ieee754.v" Line 69: Assignment to MUL ignored, since the identifier is never used
+
+Elaborating module <adder>.
+
+Elaborating module <adder_normaliser>.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 35: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 38: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 41: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 44: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 47: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 50: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 53: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 56: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 59: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 62: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 65: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 68: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 71: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 74: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 77: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 80: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 83: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 86: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 89: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v" Line 92: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/adder.v" Line 130: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <multiplier>.
+
+Elaborating module <mul_normaliser>.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" Line 35: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" Line 38: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" Line 41: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" Line 44: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v" Line 47: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/multiplier.v" Line 86: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/multiplier.v" Line 91: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <divider>.
+
+Elaborating module <reciprocal>.
+WARNING:HDLCompiler:413 - "C:/Users/Lenovo/Documents/ieee754 main project backup/reciprocal.v" Line 33: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ieee754>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/ieee754.v".
+    Found 8-bit register for signal <out_exp>.
+    Found 25-bit register for signal <out_man>.
+    Found 6-bit register for signal <status>.
+    Found 32-bit register for signal <adder_in1_in>.
+    Found 32-bit register for signal <adder_in2_in>.
+    Found 32-bit register for signal <divider_in1_in>.
+    Found 32-bit register for signal <divider_in2_in>.
+    Found 32-bit register for signal <multiplier_in1_in>.
+    Found 32-bit register for signal <multiplier_in2_in>.
+    Found 1-bit register for signal <out_sign>.
+    Summary:
+	inferred 232 D-type flip-flop(s).
+	inferred  28 Multiplexer(s).
+Unit <ieee754> synthesized.
+
+Synthesizing Unit <adder>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/adder.v".
+    Found 8-bit register for signal <out_exp>.
+    Found 25-bit register for signal <out_man>.
+    Found 1-bit register for signal <out_sign>.
+    Found 8-bit register for signal <i_e>.
+    Found 25-bit register for signal <i_m>.
+    Found 25-bit subtractor for signal <GND_2_o_GND_2_o_sub_12_OUT> created at line 93.
+    Found 25-bit subtractor for signal <GND_2_o_GND_2_o_sub_13_OUT> created at line 96.
+    Found 8-bit subtractor for signal <in1[30]_in2[30]_sub_17_OUT> created at line 107.
+    Found 25-bit subtractor for signal <GND_2_o_GND_2_o_sub_21_OUT> created at line 113.
+    Found 8-bit subtractor for signal <in2[30]_in1[30]_sub_24_OUT> created at line 118.
+    Found 25-bit subtractor for signal <GND_2_o_GND_2_o_sub_28_OUT> created at line 124.
+    Found 24-bit adder for signal <GND_2_o_GND_2_o_add_9_OUT> created at line 85.
+    Found 25-bit adder for signal <n0117> created at line 111.
+    Found 25-bit adder for signal <n0122> created at line 122.
+    Found 8-bit adder for signal <out_exp[7]_GND_2_o_add_36_OUT> created at line 130.
+    Found 24-bit shifter logical right for signal <GND_2_o_in1[30]_shift_right_17_OUT> created at line 108
+    Found 24-bit shifter logical right for signal <GND_2_o_in2[30]_shift_right_24_OUT> created at line 119
+    Found 8-bit comparator equal for signal <in1[30]_in2[30]_equal_8_o> created at line 81
+    Found 24-bit comparator greater for signal <GND_2_o_GND_2_o_LessThan_11_o> created at line 92
+    Found 8-bit comparator greater for signal <in2[30]_in1[30]_LessThan_16_o> created at line 104
+    Found 8-bit comparator greater for signal <in1[30]_in2[30]_LessThan_23_o> created at line 115
+    Found 1-bit comparator equal for signal <in1[31]_in2[31]_equal_26_o> created at line 121
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  67 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred  28 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <adder> synthesized.
+
+Synthesizing Unit <adder_normaliser>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/adder_normaliser.v".
+WARNING:Xst:647 - Input <in_m<24:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 25-bit register for signal <out_m>.
+    Found 8-bit register for signal <out_e>.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_3_OUT<7:0>> created at line 35.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_5_OUT<7:0>> created at line 38.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_7_OUT<7:0>> created at line 41.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_9_OUT<7:0>> created at line 44.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_11_OUT<7:0>> created at line 47.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_13_OUT<7:0>> created at line 50.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_15_OUT<7:0>> created at line 53.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_17_OUT<7:0>> created at line 56.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_19_OUT<7:0>> created at line 59.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_21_OUT<7:0>> created at line 62.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_23_OUT<7:0>> created at line 65.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_25_OUT<7:0>> created at line 68.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_27_OUT<7:0>> created at line 71.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_29_OUT<7:0>> created at line 74.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_31_OUT<7:0>> created at line 77.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_33_OUT<7:0>> created at line 80.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_35_OUT<7:0>> created at line 83.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_37_OUT<7:0>> created at line 86.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_39_OUT<7:0>> created at line 89.
+    Found 8-bit subtractor for signal <GND_3_o_GND_3_o_sub_41_OUT<7:0>> created at line 92.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred  38 Multiplexer(s).
+Unit <adder_normaliser> synthesized.
+
+Synthesizing Unit <multiplier>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/multiplier.v".
+    Found 1-bit register for signal <out_sign>.
+    Found 8-bit register for signal <out_exp>.
+    Found 8-bit register for signal <i_e>.
+    Found 48-bit register for signal <i_m>.
+    Found 23-bit register for signal <out_man<22:0>>.
+    Found 9-bit adder for signal <n0069> created at line 86.
+    Found 8-bit adder for signal <GND_5_o_GND_5_o_add_11_OUT> created at line 91.
+    Found 8-bit subtractor for signal <_n0080> created at line 95.
+    Found 24x24-bit multiplier for signal <GND_5_o_GND_5_o_MuLt_9_OUT> created at line 87.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  88 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+Synthesizing Unit <mul_normaliser>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/mul_normaliser.v".
+WARNING:Xst:647 - Input <in_m<47:47>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 48-bit register for signal <out_m>.
+    Found 8-bit register for signal <out_e>.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_3_OUT<7:0>> created at line 35.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_5_OUT<7:0>> created at line 38.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_7_OUT<7:0>> created at line 41.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_9_OUT<7:0>> created at line 44.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_11_OUT<7:0>> created at line 47.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  56 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <mul_normaliser> synthesized.
+
+Synthesizing Unit <divider>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/divider.v".
+    Summary:
+	no macro.
+Unit <divider> synthesized.
+
+Synthesizing Unit <reciprocal>.
+    Related source file is "C:/Users/Lenovo/Documents/ieee754 main project backup/reciprocal.v".
+    Found 9-bit subtractor for signal <n0045> created at line 33.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <reciprocal> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 7
+ 24x24-bit multiplier                                  : 7
+# Adders/Subtractors                                   : 53
+ 24-bit adder                                          : 4
+ 25-bit addsub                                         : 4
+ 8-bit adder                                           : 11
+ 8-bit subtractor                                      : 26
+ 9-bit adder                                           : 7
+ 9-bit subtractor                                      : 1
+# Registers                                            : 87
+ 1-bit register                                        : 12
+ 23-bit register                                       : 7
+ 25-bit register                                       : 13
+ 32-bit register                                       : 6
+ 48-bit register                                       : 14
+ 6-bit register                                        : 1
+ 8-bit register                                        : 34
+# Comparators                                          : 20
+ 1-bit comparator equal                                : 4
+ 24-bit comparator greater                             : 4
+ 8-bit comparator equal                                : 4
+ 8-bit comparator greater                              : 8
+# Multiplexers                                         : 390
+ 1-bit 2-to-1 multiplexer                              : 37
+ 24-bit 2-to-1 multiplexer                             : 8
+ 25-bit 2-to-1 multiplexer                             : 132
+ 32-bit 2-to-1 multiplexer                             : 1
+ 48-bit 2-to-1 multiplexer                             : 42
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 168
+# Logic shifters                                       : 8
+ 24-bit shifter logical right                          : 8
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <out_man_23> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <out_man_24> of sequential type is unconnected in block <ieee754>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 7
+ 24x24-bit multiplier                                  : 7
+# Adders/Subtractors                                   : 53
+ 24-bit adder                                          : 4
+ 25-bit addsub                                         : 4
+ 8-bit adder                                           : 18
+ 8-bit subtractor                                      : 27
+# Registers                                            : 1638
+ Flip-Flops                                            : 1638
+# Comparators                                          : 20
+ 1-bit comparator equal                                : 4
+ 24-bit comparator greater                             : 4
+ 8-bit comparator equal                                : 4
+ 8-bit comparator greater                              : 8
+# Multiplexers                                         : 514
+ 1-bit 2-to-1 multiplexer                              : 169
+ 24-bit 2-to-1 multiplexer                             : 8
+ 25-bit 2-to-1 multiplexer                             : 128
+ 32-bit 2-to-1 multiplexer                             : 1
+ 48-bit 2-to-1 multiplexer                             : 42
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 164
+# Logic shifters                                       : 8
+ 24-bit shifter logical right                          : 8
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <out_m_0> (without init value) has a constant value of 0 in block <adder_normaliser>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <out_m_0> (without init value) has a constant value of 0 in block <mul_normaliser>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <status_1> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <status_2> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <status_3> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <ieee754> ...
+WARNING:Xst:1710 - FF/Latch <status_4> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <status_4> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <adder> ...
+
+Optimizing unit <adder_normaliser> ...
+
+Optimizing unit <multiplier> ...
+
+Optimizing unit <mul_normaliser> ...
+
+Optimizing unit <reciprocal> ...
+WARNING:Xst:1710 - FF/Latch <D1/recip/S0_2D/norm1/out_e_7> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/out_sign> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_0> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_1> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_2> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_3> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_4> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_5> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_6> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_e_7> (without init value) has a constant value of 1 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <A1/i_m_24> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <M1/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/mult/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/norm1/out_e_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_18> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_19> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_20> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_21> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_22> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_46> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/norm1/out_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_2D/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_DN0/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_N1/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_DN1/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_sign> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_8> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_9> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_10> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_11> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_12> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_13> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_14> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_15> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_16> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_17> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_m_47> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/i_e_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_5> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_6> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_N2/out_exp_7> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/i_m_24> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S1_2minDN0/i_m_24> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_2minDN1/out_sign> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S2_2minDN1/i_m_24> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:1710 - FF/Latch <D1/recip/S2_2minDN1/i_m_23> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S2_2minDN1/out_man_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_2minDN0/i_e_6> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_2minDN0/i_e_5> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_2minDN0/i_m_23> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_2minDN0/out_man_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_e_6> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_e_5> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_e_4> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_e_3> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_e_1> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/i_m_23> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/out_man_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_N0/norm1/out_m_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_2minDN0/norm1/out_m_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S2_2minDN1/norm1/out_m_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S2_N2/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S2_DN1/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_N1/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S1_DN0/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <M1/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/mult/i_m_46> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <A1/norm1/out_m_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <A1/out_man_24> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <A1/i_m_23> (without init value) has a constant value of 0 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <D1/recip/S0_2D/norm1/out_e_3> (without init value) has a constant value of 1 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/norm1/out_e_4> (without init value) has a constant value of 1 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/norm1/out_e_5> (without init value) has a constant value of 1 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <D1/recip/S0_2D/norm1/out_e_6> (without init value) has a constant value of 1 in block <ieee754>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/out_exp_5> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S0_N0/out_exp_6> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S1_2minDN0/norm1/out_e_5> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S1_2minDN0/norm1/out_e_6> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/norm1/out_e_5> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S0_N0/norm1/out_e_6> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_exp_3> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_2D/out_exp_4> <D1/recip/S0_2D/out_exp_5> <D1/recip/S0_2D/out_exp_6> 
+INFO:Xst:3203 - The FF/Latch <status_0> in Unit <ieee754> is the opposite to the following FF/Latch, which will be removed : <status_5> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block ieee754, actual ratio is 5.
+INFO:Xst:2261 - The FF/Latch <D1/recip/S1_DN0/out_sign> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S1_N1/out_sign_BRB0> 
+Forward register balancing over carry chain D1/recip/S0_N0/Msub_in2[30]_in1[30]_sub_24_OUT_cy<0>
+Forward register balancing over carry chain D1/recip/S0_N0/Msub_in1[30]_in2[30]_sub_17_OUT_cy<0>
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_0> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B113_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_1> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S0_N0/Sh7211_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_2> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7311_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B113_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_7> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7611_FRB_BRB2> <D1/recip/S0_N0/Sh7811_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_3> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7211_FRB_BRB2> <D1/recip/S0_N0/Sh7411_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_8> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7711_FRB_BRB2> <D1/recip/S0_N0/Sh801_FRB_BRB5> <D1/recip/S0_N0/Sh10311_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_4> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7311_FRB_BRB2> <D1/recip/S0_N0/Sh7511_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB4> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_9> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7811_FRB_BRB2> <D1/recip/S0_N0/Sh801_FRB_BRB2> <D1/recip/S0_N0/Sh811_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_5> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7411_FRB_BRB2> <D1/recip/S0_N0/Sh7611_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_10> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh801_FRB_BRB4> <D1/recip/S0_N0/Sh811_FRB_BRB2> <D1/recip/S0_N0/Sh821_FRB_BRB5> <D1/recip/S0_N0/Sh10311_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_6> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh7511_FRB_BRB2> <D1/recip/S0_N0/Sh7711_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB3> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_11> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh801_FRB_BRB3> <D1/recip/S0_N0/Sh811_FRB_BRB4> <D1/recip/S0_N0/Sh821_FRB_BRB2> <D1/recip/S0_N0/Sh831_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_12> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh811_FRB_BRB3> <D1/recip/S0_N0/Sh821_FRB_BRB4> <D1/recip/S0_N0/Sh831_FRB_BRB2> <D1/recip/S0_N0/Sh841_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_17> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh10312_FRB_BRB2> <D1/recip/S0_N0/Sh861_FRB_BRB3> <D1/recip/S0_N0/Sh881_FRB_BRB2> <D1/recip/S0_N0/Sh891_FRB_BRB5> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/Sh291_FRB> in Unit <ieee754> is equivalent to the following 9 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh3511_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B231_SW0_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B21_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B121_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B31_SW0_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B51_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B171_SW0_FRB_BRB4> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B181_SW0_FRB_BRB4> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B111_SW0_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/Sh1010_FRB> in Unit <ieee754> is equivalent to the following 7 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh3511_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B231_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B21_SW0_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B31_SW0_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B171_SW0_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B181_SW0_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B111_SW0_FRB_BRB3> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_13> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh821_FRB_BRB3> <D1/recip/S0_N0/Sh831_FRB_BRB4> <D1/recip/S0_N0/Sh841_FRB_BRB2> <D1/recip/S0_N0/Sh851_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in2[30]_in1[30]_sub_24_OUT<2>1_FRB> in Unit <ieee754> is equivalent to the following 8 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B231_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B21_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B121_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B31_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B51_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B171_SW0_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B181_SW0_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B111_SW0_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_18> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh881_FRB_BRB4> <D1/recip/S0_N0/Sh891_FRB_BRB2> <D1/recip/S0_N0/Sh901_FRB_BRB5> <D1/recip/S0_N0/Sh10311_FRB_BRB3> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB3> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in2[30]_in1[30]_sub_24_OUT<3>1_FRB> in Unit <ieee754> is equivalent to the following 7 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh3511_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B121_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B31_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B51_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B171_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B181_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B111_SW0_FRB_BRB4> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in2[30]_in1[30]_sub_24_OUT<4>1_FRB> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B121_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B51_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B171_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B181_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B111_SW0_FRB_BRB0> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<0>1_FRB> in Unit <ieee754> is equivalent to the following 20 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh951_FRB_BRB1> <D1/recip/S0_N0/Sh941_FRB_BRB1> <D1/recip/S0_N0/Sh931_FRB_BRB0> <D1/recip/S0_N0/Sh1191_FRB_BRB3> <D1/recip/S0_N0/Sh801_FRB_BRB0> <D1/recip/S0_N0/Sh811_FRB_BRB0> <D1/recip/S0_N0/Sh821_FRB_BRB0> <D1/recip/S0_N0/Sh831_FRB_BRB0> <D1/recip/S0_N0/Sh841_FRB_BRB0> <D1/recip/S0_N0/Sh851_FRB_BRB0> <D1/recip/S0_N0/Sh861_FRB_BRB0> <D1/recip/S0_N0/Sh881_FRB_BRB0> <D1/recip/S0_N0/Sh891_FRB_BRB0> <D1/recip/S0_N0/Sh901_FRB_BRB0> <D1/recip/S0_N0/Sh921_FRB_BRB0> <D1/recip/S0_N0/Sh911_FRB_BRB0> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB1> <D1/recip/S0_N0/Sh1181_FRB_BRB3> <D1/recip/S0_N0/Sh1171_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<1>1_FRB> in Unit <ieee754> is equivalent to the following 30 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh951_FRB_BRB0> <D1/recip/S0_N0/Sh7211_FRB_BRB0> <D1/recip/S0_N0/Sh7411_FRB_BRB0> <D1/recip/S0_N0/Sh7611_FRB_BRB0> <D1/recip/S0_N0/Sh7811_FRB_BRB0> <D1/recip/S0_N0/Sh7311_FRB_BRB0> <D1/recip/S0_N0/Sh7511_FRB_BRB0> <D1/recip/S0_N0/Sh7711_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B113_FRB_BRB0> <D1/recip/S0_N0/Sh10312_FRB_BRB0> <D1/recip/S0_N0/Sh941_FRB_BRB0> <D1/recip/S0_N0/Sh931_FRB_BRB1> <D1/recip/S0_N0/Sh1191_FRB_BRB2> <D1/recip/S0_N0/Sh801_FRB_BRB1> <D1/recip/S0_N0/Sh811_FRB_BRB1> <D1/recip/S0_N0/Sh821_FRB_BRB1> <D1/recip/S0_N0/Sh831_FRB_BRB1> <D1/recip/S0_N0/Sh841_FRB_BRB1> <D1/recip/S0_N0/Sh851_FRB_BRB1> <D1/recip/S0_N0/Sh861_FRB_BRB1> <D1/recip/S0_N0/Sh881_FRB_BRB1> <D1/recip/S0_N0/Sh891_FRB_BRB1> <D1/recip/S0_N0/Sh901_FRB_BRB1> <D1/recip/S0_N0/Sh921_FRB_BRB1> <D1/recip/S0_N0/Sh911_FRB_BRB1>
+   <D1/recip/S0_N0/Sh10311_FRB_BRB0> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B185_FRB_BRB0> <D1/recip/S0_N0/Sh1181_FRB_BRB2> <D1/recip/S0_N0/Sh1171_FRB_BRB4> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<2>1_FRB> in Unit <ieee754> is equivalent to the following 3 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh1191_FRB_BRB1> <D1/recip/S0_N0/Sh1181_FRB_BRB1> <D1/recip/S0_N0/Sh1171_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_14> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh831_FRB_BRB3> <D1/recip/S0_N0/Sh841_FRB_BRB4> <D1/recip/S0_N0/Sh851_FRB_BRB2> <D1/recip/S0_N0/Sh861_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<7>_FRB> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B1131_FRB_BRB2> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B43_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<3>1_FRB> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh1191_FRB_BRB0> <D1/recip/S0_N0/Sh10311_FRB_BRB1> <D1/recip/S0_N0/Sh1181_FRB_BRB0> <D1/recip/S0_N0/Sh1171_FRB_BRB0> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_19> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh881_FRB_BRB3> <D1/recip/S0_N0/Sh891_FRB_BRB4> <D1/recip/S0_N0/Sh901_FRB_BRB2> <D1/recip/S0_N0/Sh911_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<4>1_FRB> in Unit <ieee754> is equivalent to the following FF/Latch, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B43_FRB_BRB4> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<5>_FRB> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B1131_FRB_BRB1> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B43_FRB_BRB1> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_N0/in1[30]_in2[30]_sub_17_OUT<6>_FRB> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B1131_FRB_BRB3> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B43_FRB_BRB3> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_15> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh10312_FRB_BRB1> <D1/recip/S0_N0/Sh841_FRB_BRB3> <D1/recip/S0_N0/Sh851_FRB_BRB4> <D1/recip/S0_N0/Sh861_FRB_BRB2> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB4> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_20> in Unit <ieee754> is equivalent to the following 4 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh891_FRB_BRB3> <D1/recip/S0_N0/Sh901_FRB_BRB4> <D1/recip/S0_N0/Sh921_FRB_BRB5> <D1/recip/S0_N0/Sh911_FRB_BRB2> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_exp_7> in Unit <ieee754> is equivalent to the following 2 FFs/Latches, which will be removed : <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B1131_FRB_BRB0> <D1/recip/S0_N0/Mmux_out_man[24]_GND_2_o_mux_34_OUT_B43_FRB_BRB0> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_16> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh851_FRB_BRB3> <D1/recip/S0_N0/Sh861_FRB_BRB4> <D1/recip/S0_N0/Sh881_FRB_BRB5> <D1/recip/S0_N0/Sh10311_FRB_BRB4> <D1/recip/S0_N0/Sh1071_SW0_FRB_BRB5> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_21> in Unit <ieee754> is equivalent to the following 5 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh931_FRB_BRB3> <D1/recip/S0_N0/Sh901_FRB_BRB3> <D1/recip/S0_N0/Sh921_FRB_BRB2> <D1/recip/S0_N0/Sh911_FRB_BRB4> <D1/recip/S0_N0/Sh1171_FRB_BRB3> 
+INFO:Xst:2261 - The FF/Latch <D1/recip/S0_2D/out_man_22> in Unit <ieee754> is equivalent to the following 6 FFs/Latches, which will be removed : <D1/recip/S0_N0/Sh941_FRB_BRB2> <D1/recip/S0_N0/Sh931_FRB_BRB4> <D1/recip/S0_N0/Sh921_FRB_BRB4> <D1/recip/S0_N0/Sh911_FRB_BRB3> <D1/recip/S0_N0/Sh1181_FRB_BRB5> <D1/recip/S0_N0/Sh1171_FRB_BRB5> 
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/out_man_23_BRB0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/out_man_23_BRB1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/out_man_23_BRB2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/out_man_23_BRB3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB0> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB1> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB2> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB3> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB4> of sequential type is unconnected in block <ieee754>.
+WARNING:Xst:2677 - Node <D1/recip/S0_N0/norm1/out_m_23_BRB5> of sequential type is unconnected in block <ieee754>.
+
+Pipelining and Register Balancing Report ...
+
+Processing Unit <ieee754> :
+	Register(s) D1/recip/S0_2D/out_man_15 D1/recip/S0_2D/out_man_14 has(ve) been forward balanced into : D1/recip/S0_N0/Mcompar_GND_2_o_GND_2_o_LessThan_11_o_lutdi7_FRB.
+	Register(s) D1/recip/S0_2D/out_man_17 D1/recip/S0_2D/out_man_16 has(ve) been forward balanced into : D1/recip/S0_N0/Mcompar_GND_2_o_GND_2_o_LessThan_11_o_lutdi81_FRB.
+	Register(s) D1/recip/S0_2D/out_man_7 D1/recip/S0_2D/out_man_6 has(ve) been forward balanced into : D1/recip/S0_N0/Mcompar_GND_2_o_GND_2_o_LessThan_11_o_lutdi3_FRB.
+	Register(s) D1/recip/S0_2D/out_man_9 D1/recip/S0_2D/out_man_8 has(ve) been forward balanced into : D1/recip/S0_N0/Mcompar_GND_2_o_GND_2_o_LessThan_11_o_lutdi41_FRB.
+	Register(s) D1/recip/S0_N0/out_exp_7 D1/recip/S0_N0/out_exp_0 has(ve) been forward balanced into : D1/recip/S1_DN0/GND_5_o_INV_74_o_SW0_FRB.
+	Register(s) A1/i_e_0 has(ve) been backward balanced into : A1/i_e_0_BRB0 A1/i_e_0_BRB1 .
+	Register(s) A1/i_e_1 has(ve) been backward balanced into : A1/i_e_1_BRB0 A1/i_e_1_BRB1 .
+	Register(s) A1/i_e_2 has(ve) been backward balanced into : A1/i_e_2_BRB0 A1/i_e_2_BRB1 .
+	Register(s) A1/i_e_3 has(ve) been backward balanced into : A1/i_e_3_BRB0 A1/i_e_3_BRB1 .
+	Register(s) A1/i_e_4 has(ve) been backward balanced into : A1/i_e_4_BRB0 A1/i_e_4_BRB1 .
+	Register(s) A1/i_e_5 has(ve) been backward balanced into : A1/i_e_5_BRB0 A1/i_e_5_BRB1 .
+	Register(s) A1/i_e_6 has(ve) been backward balanced into : A1/i_e_6_BRB0 A1/i_e_6_BRB1 .
+	Register(s) A1/i_e_7 has(ve) been backward balanced into : A1/i_e_7_BRB0 A1/i_e_7_BRB1 A1/i_e_7_BRB3 A1/i_e_7_BRB4 A1/i_e_7_BRB5 A1/i_e_7_BRB6 A1/i_e_7_BRB9 .
+	Register(s) A1/i_m_0 has(ve) been backward balanced into : A1/i_m_0_BRB0 A1/i_m_0_BRB1 .
+	Register(s) A1/i_m_1 has(ve) been backward balanced into : A1/i_m_1_BRB0 A1/i_m_1_BRB1 .
+	Register(s) A1/i_m_10 has(ve) been backward balanced into : A1/i_m_10_BRB0 A1/i_m_10_BRB3 A1/i_m_10_BRB4 A1/i_m_10_BRB7.
+	Register(s) A1/i_m_11 has(ve) been backward balanced into : A1/i_m_11_BRB0 A1/i_m_11_BRB3 A1/i_m_11_BRB4 A1/i_m_11_BRB7.
+	Register(s) A1/i_m_12 has(ve) been backward balanced into : A1/i_m_12_BRB0 A1/i_m_12_BRB3 A1/i_m_12_BRB4 A1/i_m_12_BRB7.
+	Register(s) A1/i_m_13 has(ve) been backward balanced into : A1/i_m_13_BRB0 A1/i_m_13_BRB3 A1/i_m_13_BRB4 A1/i_m_13_BRB7.
+	Register(s) A1/i_m_14 has(ve) been backward balanced into : A1/i_m_14_BRB0 A1/i_m_14_BRB3 A1/i_m_14_BRB4 A1/i_m_14_BRB7.
+	Register(s) A1/i_m_15 has(ve) been backward balanced into : A1/i_m_15_BRB0 A1/i_m_15_BRB3 A1/i_m_15_BRB4 A1/i_m_15_BRB7.
+	Register(s) A1/i_m_16 has(ve) been backward balanced into : A1/i_m_16_BRB0 A1/i_m_16_BRB3 A1/i_m_16_BRB4 A1/i_m_16_BRB7.
+	Register(s) A1/i_m_17 has(ve) been backward balanced into : A1/i_m_17_BRB0 A1/i_m_17_BRB3 A1/i_m_17_BRB4 A1/i_m_17_BRB7.
+	Register(s) A1/i_m_18 has(ve) been backward balanced into : A1/i_m_18_BRB0 A1/i_m_18_BRB2 A1/i_m_18_BRB4 A1/i_m_18_BRB6 A1/i_m_18_BRB9.
+	Register(s) A1/i_m_19 has(ve) been backward balanced into : A1/i_m_19_BRB0 A1/i_m_19_BRB2 A1/i_m_19_BRB4 A1/i_m_19_BRB6 A1/i_m_19_BRB9.
+	Register(s) A1/i_m_2 has(ve) been backward balanced into : A1/i_m_2_BRB0 A1/i_m_2_BRB3 A1/i_m_2_BRB4 A1/i_m_2_BRB7.
+	Register(s) A1/i_m_20 has(ve) been backward balanced into : A1/i_m_20_BRB0 A1/i_m_20_BRB2 A1/i_m_20_BRB4 A1/i_m_20_BRB6 A1/i_m_20_BRB9.
+	Register(s) A1/i_m_21 has(ve) been backward balanced into : A1/i_m_21_BRB0 A1/i_m_21_BRB2 A1/i_m_21_BRB4 A1/i_m_21_BRB6 A1/i_m_21_BRB9.
+	Register(s) A1/i_m_22 has(ve) been backward balanced into : A1/i_m_22_BRB0 A1/i_m_22_BRB2 A1/i_m_22_BRB4 A1/i_m_22_BRB6 A1/i_m_22_BRB7 A1/i_m_22_BRB9.
+	Register(s) A1/i_m_3 has(ve) been backward balanced into : A1/i_m_3_BRB0 A1/i_m_3_BRB3 A1/i_m_3_BRB4 A1/i_m_3_BRB7.
+	Register(s) A1/i_m_4 has(ve) been backward balanced into : A1/i_m_4_BRB0 A1/i_m_4_BRB3 A1/i_m_4_BRB4 A1/i_m_4_BRB7.
+	Register(s) A1/i_m_5 has(ve) been backward balanced into : A1/i_m_5_BRB0 A1/i_m_5_BRB3 A1/i_m_5_BRB4 A1/i_m_5_BRB7.
+	Register(s) A1/i_m_6 has(ve) been backward balanced into : A1/i_m_6_BRB0 A1/i_m_6_BRB3 A1/i_m_6_BRB4 A1/i_m_6_BRB7.
+	Register(s) A1/i_m_7 has(ve) been backward balanced into : A1/i_m_7_BRB0 A1/i_m_7_BRB3 A1/i_m_7_BRB4 A1/i_m_7_BRB7.
+	Register(s) A1/i_m_8 has(ve) been backward balanced into : A1/i_m_8_BRB0 A1/i_m_8_BRB3 A1/i_m_8_BRB4 A1/i_m_8_BRB7.
+	Register(s) A1/i_m_9 has(ve) been backward balanced into : A1/i_m_9_BRB0 A1/i_m_9_BRB3 A1/i_m_9_BRB4 A1/i_m_9_BRB7.
+	Register(s) A1/norm1/out_m_1 has(ve) been backward balanced into : A1/norm1/out_m_1_BRB1 A1/norm1/out_m_1_BRB2.
+	Register(s) A1/norm1/out_m_10 has(ve) been backward balanced into : A1/norm1/out_m_10_BRB0 A1/norm1/out_m_10_BRB3 A1/norm1/out_m_10_BRB4.
+	Register(s) A1/norm1/out_m_11 has(ve) been backward balanced into : A1/norm1/out_m_11_BRB1 A1/norm1/out_m_11_BRB2.
+	Register(s) A1/norm1/out_m_12 has(ve) been backward balanced into : A1/norm1/out_m_12_BRB0 A1/norm1/out_m_12_BRB1 A1/norm1/out_m_12_BRB2 A1/norm1/out_m_12_BRB3 .
+	Register(s) A1/norm1/out_m_13 has(ve) been backward balanced into : A1/norm1/out_m_13_BRB0 A1/norm1/out_m_13_BRB2 A1/norm1/out_m_13_BRB3 A1/norm1/out_m_13_BRB4.
+	Register(s) A1/norm1/out_m_14 has(ve) been backward balanced into : A1/norm1/out_m_14_BRB2 A1/norm1/out_m_14_BRB3 A1/norm1/out_m_14_BRB4 .
+	Register(s) A1/norm1/out_m_15 has(ve) been backward balanced into : A1/norm1/out_m_15_BRB0 A1/norm1/out_m_15_BRB1 A1/norm1/out_m_15_BRB2 .
+	Register(s) A1/norm1/out_m_16 has(ve) been backward balanced into : A1/norm1/out_m_16_BRB0 A1/norm1/out_m_16_BRB4.
+	Register(s) A1/norm1/out_m_17 has(ve) been backward balanced into : A1/norm1/out_m_17_BRB2 A1/norm1/out_m_17_BRB3 .
+	Register(s) A1/norm1/out_m_18 has(ve) been backward balanced into : A1/norm1/out_m_18_BRB1 A1/norm1/out_m_18_BRB3 A1/norm1/out_m_18_BRB5.
+	Register(s) A1/norm1/out_m_19 has(ve) been backward balanced into : A1/norm1/out_m_19_BRB0 A1/norm1/out_m_19_BRB1 A1/norm1/out_m_19_BRB2 A1/norm1/out_m_19_BRB3 .
+	Register(s) A1/norm1/out_m_2 has(ve) been backward balanced into : A1/norm1/out_m_2_BRB0 A1/norm1/out_m_2_BRB1 .
+	Register(s) A1/norm1/out_m_20 has(ve) been backward balanced into : A1/norm1/out_m_20_BRB1 A1/norm1/out_m_20_BRB2.
+	Register(s) A1/norm1/out_m_21 has(ve) been backward balanced into : A1/norm1/out_m_21_BRB1 A1/norm1/out_m_21_BRB2.
+	Register(s) A1/norm1/out_m_22 has(ve) been backward balanced into : A1/norm1/out_m_22_BRB0 A1/norm1/out_m_22_BRB1 A1/norm1/out_m_22_BRB2.
+	Register(s) A1/norm1/out_m_23 has(ve) been backward balanced into : A1/norm1/out_m_23_BRB0 A1/norm1/out_m_23_BRB1 A1/norm1/out_m_23_BRB2 A1/norm1/out_m_23_BRB3 A1/norm1/out_m_23_BRB4 A1/norm1/out_m_23_BRB5.
+	Register(s) A1/norm1/out_m_3 has(ve) been backward balanced into : A1/norm1/out_m_3_BRB1.
+	Register(s) A1/norm1/out_m_4 has(ve) been backward balanced into : A1/norm1/out_m_4_BRB1 A1/norm1/out_m_4_BRB2 A1/norm1/out_m_4_BRB3 A1/norm1/out_m_4_BRB5.
+	Register(s) A1/norm1/out_m_5 has(ve) been backward balanced into : A1/norm1/out_m_5_BRB0 .
+	Register(s) A1/norm1/out_m_6 has(ve) been backward balanced into : A1/norm1/out_m_6_BRB2 A1/norm1/out_m_6_BRB3 A1/norm1/out_m_6_BRB4 .
+	Register(s) A1/norm1/out_m_7 has(ve) been backward balanced into : A1/norm1/out_m_7_BRB0 A1/norm1/out_m_7_BRB1 A1/norm1/out_m_7_BRB2 A1/norm1/out_m_7_BRB4 .
+	Register(s) A1/norm1/out_m_8 has(ve) been backward balanced into : A1/norm1/out_m_8_BRB3 A1/norm1/out_m_8_BRB5.
+	Register(s) A1/norm1/out_m_9 has(ve) been backward balanced into : A1/norm1/out_m_9_BRB0 A1/norm1/out_m_9_BRB1 A1/norm1/out_m_9_BRB2 A1/norm1/out_m_9_BRB3 .
+	Register(s) A1/out_exp_0 has(ve) been backward balanced into : A1/out_exp_0_BRB0 A1/out_exp_0_BRB2 A1/out_exp_0_BRB3 A1/out_exp_0_BRB9.
+	Register(s) A1/out_exp_1 has(ve) been backward balanced into : A1/out_exp_1_BRB2 A1/out_exp_1_BRB4.
+	Register(s) A1/out_exp_2 has(ve) been backward balanced into : A1/out_exp_2_BRB5.
+	Register(s) A1/out_exp_3 has(ve) been backward balanced into : A1/out_exp_3_BRB0 A1/out_exp_3_BRB1 A1/out_exp_3_BRB5.
+	Register(s) A1/out_exp_4 has(ve) been backward balanced into : A1/out_exp_4_BRB1 A1/out_exp_4_BRB2 A1/out_exp_4_BRB5.
+	Register(s) A1/out_exp_5 has(ve) been backward balanced into : A1/out_exp_5_BRB1 A1/out_exp_5_BRB2 A1/out_exp_5_BRB3 A1/out_exp_5_BRB5.
+	Register(s) A1/out_exp_6 has(ve) been backward balanced into : A1/out_exp_6_BRB1 A1/out_exp_6_BRB2 A1/out_exp_6_BRB4.
+	Register(s) A1/out_exp_7 has(ve) been backward balanced into : A1/out_exp_7_BRB2 A1/out_exp_7_BRB5.
+	Register(s) A1/out_man_0 has(ve) been backward balanced into : A1/out_man_0_BRB2 A1/out_man_0_BRB3.
+	Register(s) A1/out_man_1 has(ve) been backward balanced into : A1/out_man_1_BRB1 .
+	Register(s) A1/out_man_10 has(ve) been backward balanced into : A1/out_man_10_BRB1 A1/out_man_10_BRB3 .
+	Register(s) A1/out_man_11 has(ve) been backward balanced into : A1/out_man_11_BRB1 A1/out_man_11_BRB3 .
+	Register(s) A1/out_man_12 has(ve) been backward balanced into : A1/out_man_12_BRB1 A1/out_man_12_BRB3 .
+	Register(s) A1/out_man_13 has(ve) been backward balanced into : A1/out_man_13_BRB1 A1/out_man_13_BRB3 .
+	Register(s) A1/out_man_14 has(ve) been backward balanced into : A1/out_man_14_BRB1 A1/out_man_14_BRB3 .
+	Register(s) A1/out_man_15 has(ve) been backward balanced into : A1/out_man_15_BRB1 A1/out_man_15_BRB3 .
+	Register(s) A1/out_man_16 has(ve) been backward balanced into : A1/out_man_16_BRB1 A1/out_man_16_BRB3 .
+	Register(s) A1/out_man_17 has(ve) been backward balanced into : A1/out_man_17_BRB1 A1/out_man_17_BRB3 .
+	Register(s) A1/out_man_18 has(ve) been backward balanced into : A1/out_man_18_BRB1 A1/out_man_18_BRB3 .
+	Register(s) A1/out_man_19 has(ve) been backward balanced into : A1/out_man_19_BRB1 A1/out_man_19_BRB3 .
+	Register(s) A1/out_man_2 has(ve) been backward balanced into : A1/out_man_2_BRB1 A1/out_man_2_BRB3 .
+	Register(s) A1/out_man_20 has(ve) been backward balanced into : A1/out_man_20_BRB1 A1/out_man_20_BRB3 .
+	Register(s) A1/out_man_21 has(ve) been backward balanced into : A1/out_man_21_BRB1 A1/out_man_21_BRB3 .
+	Register(s) A1/out_man_22 has(ve) been backward balanced into : A1/out_man_22_BRB1 A1/out_man_22_BRB3 .
+	Register(s) A1/out_man_23 has(ve) been backward balanced into : A1/out_man_23_BRB0 A1/out_man_23_BRB2 .
+	Register(s) A1/out_man_3 has(ve) been backward balanced into : A1/out_man_3_BRB1 A1/out_man_3_BRB3 .
+	Register(s) A1/out_man_4 has(ve) been backward balanced into : A1/out_man_4_BRB1 A1/out_man_4_BRB3 .
+	Register(s) A1/out_man_5 has(ve) been backward balanced into : A1/out_man_5_BRB1 A1/out_man_5_BRB3 .
+	Register(s) A1/out_man_6 has(ve) been backward balanced into : A1/out_man_6_BRB1 A1/out_man_6_BRB3 .
+	Register(s) A1/out_man_7 has(ve) been backward balanced into : A1/out_man_7_BRB1 A1/out_man_7_BRB3 .
+	Register(s) A1/out_man_8 has(ve) been backward balanced into : A1/out_man_8_BRB1 A1/out_man_8_BRB3 .
+	Register(s) A1/out_man_9 has(ve) been backward balanced into : A1/out_man_9_BRB1 A1/out_man_9_BRB3 .
+	Register(s) D1/mult/i_e_0 has(ve) been backward balanced into : D1/mult/i_e_0_BRB0 .
+	Register(s) D1/mult/i_e_1 has(ve) been backward balanced into : D1/mult/i_e_1_BRB2 .
+	Register(s) D1/mult/i_e_2 has(ve) been backward balanced into : D1/mult/i_e_2_BRB1 D1/mult/i_e_2_BRB2.
+	Register(s) D1/mult/i_e_3 has(ve) been backward balanced into : D1/mult/i_e_3_BRB1 D1/mult/i_e_3_BRB2.
+	Register(s) D1/mult/i_e_4 has(ve) been backward balanced into : D1/mult/i_e_4_BRB1 D1/mult/i_e_4_BRB2.
+	Register(s) D1/mult/i_e_5 has(ve) been backward balanced into : D1/mult/i_e_5_BRB1 D1/mult/i_e_5_BRB2.
+	Register(s) D1/mult/i_e_6 has(ve) been backward balanced into : D1/mult/i_e_6_BRB1 D1/mult/i_e_6_BRB2.
+	Register(s) D1/mult/i_e_7 has(ve) been backward balanced into : D1/mult/i_e_7_BRB0 D1/mult/i_e_7_BRB1 D1/mult/i_e_7_BRB2.
+	Register(s) D1/mult/i_m_18 has(ve) been backward balanced into : D1/mult/i_m_18_BRB1 D1/mult/i_m_18_BRB2.
+	Register(s) D1/mult/i_m_19 has(ve) been backward balanced into : D1/mult/i_m_19_BRB1 D1/mult/i_m_19_BRB2.
+	Register(s) D1/mult/i_m_20 has(ve) been backward balanced into : D1/mult/i_m_20_BRB1 D1/mult/i_m_20_BRB2.
+	Register(s) D1/mult/i_m_21 has(ve) been backward balanced into : D1/mult/i_m_21_BRB1 D1/mult/i_m_21_BRB2.
+	Register(s) D1/mult/i_m_22 has(ve) been backward balanced into : D1/mult/i_m_22_BRB1 D1/mult/i_m_22_BRB2.
+	Register(s) D1/mult/i_m_23 has(ve) been backward balanced into : D1/mult/i_m_23_BRB1 D1/mult/i_m_23_BRB2.
+	Register(s) D1/mult/i_m_24 has(ve) been backward balanced into : D1/mult/i_m_24_BRB1 D1/mult/i_m_24_BRB2.
+	Register(s) D1/mult/i_m_25 has(ve) been backward balanced into : D1/mult/i_m_25_BRB1 D1/mult/i_m_25_BRB2.
+	Register(s) D1/mult/i_m_26 has(ve) been backward balanced into : D1/mult/i_m_26_BRB1 D1/mult/i_m_26_BRB2.
+	Register(s) D1/mult/i_m_27 has(ve) been backward balanced into : D1/mult/i_m_27_BRB1 D1/mult/i_m_27_BRB2.
+	Register(s) D1/mult/i_m_28 has(ve) been backward balanced into : D1/mult/i_m_28_BRB1 D1/mult/i_m_28_BRB2.
+	Register(s) D1/mult/i_m_29 has(ve) been backward balanced into : D1/mult/i_m_29_BRB1 D1/mult/i_m_29_BRB2.
+	Register(s) D1/mult/i_m_30 has(ve) been backward balanced into : D1/mult/i_m_30_BRB1 D1/mult/i_m_30_BRB2.
+	Register(s) D1/mult/i_m_31 has(ve) been backward balanced into : D1/mult/i_m_31_BRB1 D1/mult/i_m_31_BRB2.
+	Register(s) D1/mult/i_m_32 has(ve) been backward balanced into : D1/mult/i_m_32_BRB1 D1/mult/i_m_32_BRB2.
+	Register(s) D1/mult/i_m_33 has(ve) been backward balanced into : D1/mult/i_m_33_BRB1 D1/mult/i_m_33_BRB2.
+	Register(s) D1/mult/i_m_34 has(ve) been backward balanced into : D1/mult/i_m_34_BRB1 D1/mult/i_m_34_BRB2.
+	Register(s) D1/mult/i_m_35 has(ve) been backward balanced into : D1/mult/i_m_35_BRB1 D1/mult/i_m_35_BRB2.
+	Register(s) D1/mult/i_m_36 has(ve) been backward balanced into : D1/mult/i_m_36_BRB1 D1/mult/i_m_36_BRB2.
+	Register(s) D1/mult/i_m_37 has(ve) been backward balanced into : D1/mult/i_m_37_BRB1 D1/mult/i_m_37_BRB2.
+	Register(s) D1/mult/i_m_38 has(ve) been backward balanced into : D1/mult/i_m_38_BRB1 D1/mult/i_m_38_BRB2.
+	Register(s) D1/mult/i_m_39 has(ve) been backward balanced into : D1/mult/i_m_39_BRB1 D1/mult/i_m_39_BRB2.
+	Register(s) D1/mult/i_m_40 has(ve) been backward balanced into : D1/mult/i_m_40_BRB1 D1/mult/i_m_40_BRB2.
+	Register(s) D1/mult/i_m_41 has(ve) been backward balanced into : D1/mult/i_m_41_BRB1 D1/mult/i_m_41_BRB2.
+	Register(s) D1/mult/i_m_42 has(ve) been backward balanced into : D1/mult/i_m_42_BRB1 D1/mult/i_m_42_BRB2.
+	Register(s) D1/mult/i_m_43 has(ve) been backward balanced into : D1/mult/i_m_43_BRB1 D1/mult/i_m_43_BRB2.
+	Register(s) D1/mult/i_m_44 has(ve) been backward balanced into : D1/mult/i_m_44_BRB1 D1/mult/i_m_44_BRB2.
+	Register(s) D1/mult/i_m_45 has(ve) been backward balanced into : D1/mult/i_m_45_BRB1 D1/mult/i_m_45_BRB2.
+	Register(s) D1/mult/norm1/out_e_0 has(ve) been backward balanced into : D1/mult/norm1/out_e_0_BRB2 D1/mult/norm1/out_e_0_BRB3 .
+	Register(s) D1/mult/norm1/out_e_2 has(ve) been backward balanced into : D1/mult/norm1/out_e_2_BRB0 D1/mult/norm1/out_e_2_BRB1 D1/mult/norm1/out_e_2_BRB5.
+	Register(s) D1/mult/norm1/out_e_3 has(ve) been backward balanced into : D1/mult/norm1/out_e_3_BRB3 D1/mult/norm1/out_e_3_BRB5.
+	Register(s) D1/mult/norm1/out_e_4 has(ve) been backward balanced into : D1/mult/norm1/out_e_4_BRB1 D1/mult/norm1/out_e_4_BRB3 D1/mult/norm1/out_e_4_BRB5.
+	Register(s) D1/mult/norm1/out_e_5 has(ve) been backward balanced into : D1/mult/norm1/out_e_5_BRB1 D1/mult/norm1/out_e_5_BRB4 D1/mult/norm1/out_e_5_BRB5.
+	Register(s) D1/mult/norm1/out_e_6 has(ve) been backward balanced into : D1/mult/norm1/out_e_6_BRB1 D1/mult/norm1/out_e_6_BRB4 D1/mult/norm1/out_e_6_BRB5.
+	Register(s) D1/mult/norm1/out_e_7 has(ve) been backward balanced into : D1/mult/norm1/out_e_7_BRB0 D1/mult/norm1/out_e_7_BRB1 D1/mult/norm1/out_e_7_BRB2 D1/mult/norm1/out_e_7_BRB3 D1/mult/norm1/out_e_7_BRB4 D1/mult/norm1/out_e_7_BRB5.
+	Register(s) D1/mult/norm1/out_m_23 has(ve) been backward balanced into : D1/mult/norm1/out_m_23_BRB2 D1/mult/norm1/out_m_23_BRB3 D1/mult/norm1/out_m_23_BRB4 .
+	Register(s) D1/mult/norm1/out_m_24 has(ve) been backward balanced into : D1/mult/norm1/out_m_24_BRB2 D1/mult/norm1/out_m_24_BRB3 D1/mult/norm1/out_m_24_BRB4 .
+	Register(s) D1/mult/norm1/out_m_25 has(ve) been backward balanced into : D1/mult/norm1/out_m_25_BRB2 D1/mult/norm1/out_m_25_BRB3 D1/mult/norm1/out_m_25_BRB4 .
+	Register(s) D1/mult/norm1/out_m_26 has(ve) been backward balanced into : D1/mult/norm1/out_m_26_BRB2 D1/mult/norm1/out_m_26_BRB3 D1/mult/norm1/out_m_26_BRB4 .
+	Register(s) D1/mult/norm1/out_m_27 has(ve) been backward balanced into : D1/mult/norm1/out_m_27_BRB2 D1/mult/norm1/out_m_27_BRB3 D1/mult/norm1/out_m_27_BRB4 .
+	Register(s) D1/mult/norm1/out_m_28 has(ve) been backward balanced into : D1/mult/norm1/out_m_28_BRB2 D1/mult/norm1/out_m_28_BRB3 D1/mult/norm1/out_m_28_BRB4 .
+	Register(s) D1/mult/norm1/out_m_29 has(ve) been backward balanced into : D1/mult/norm1/out_m_29_BRB2 D1/mult/norm1/out_m_29_BRB3 D1/mult/norm1/out_m_29_BRB4 .
+	Register(s) D1/mult/norm1/out_m_30 has(ve) been backward balanced into : D1/mult/norm1/out_m_30_BRB2 D1/mult/norm1/out_m_30_BRB3 D1/mult/norm1/out_m_30_BRB4 .
+	Register(s) D1/mult/norm1/out_m_31 has(ve) been backward balanced into : D1/mult/norm1/out_m_31_BRB2 D1/mult/norm1/out_m_31_BRB3 D1/mult/norm1/out_m_31_BRB4 .
+	Register(s) D1/mult/norm1/out_m_32 has(ve) been backward balanced into : D1/mult/norm1/out_m_32_BRB2 D1/mult/norm1/out_m_32_BRB3 D1/mult/norm1/out_m_32_BRB4 .
+	Register(s) D1/mult/norm1/out_m_33 has(ve) been backward balanced into : D1/mult/norm1/out_m_33_BRB2 D1/mult/norm1/out_m_33_BRB3 D1/mult/norm1/out_m_33_BRB4 .
+	Register(s) D1/mult/norm1/out_m_34 has(ve) been backward balanced into : D1/mult/norm1/out_m_34_BRB2 D1/mult/norm1/out_m_34_BRB3 D1/mult/norm1/out_m_34_BRB4 .
+	Register(s) D1/mult/norm1/out_m_35 has(ve) been backward balanced into : D1/mult/norm1/out_m_35_BRB2 D1/mult/norm1/out_m_35_BRB3 D1/mult/norm1/out_m_35_BRB4 .
+	Register(s) D1/mult/norm1/out_m_36 has(ve) been backward balanced into : D1/mult/norm1/out_m_36_BRB2 D1/mult/norm1/out_m_36_BRB3 D1/mult/norm1/out_m_36_BRB4 .
+	Register(s) D1/mult/norm1/out_m_37 has(ve) been backward balanced into : D1/mult/norm1/out_m_37_BRB2 D1/mult/norm1/out_m_37_BRB3 D1/mult/norm1/out_m_37_BRB4 .
+	Register(s) D1/mult/norm1/out_m_38 has(ve) been backward balanced into : D1/mult/norm1/out_m_38_BRB2 D1/mult/norm1/out_m_38_BRB3 D1/mult/norm1/out_m_38_BRB4 .
+	Register(s) D1/mult/norm1/out_m_39 has(ve) been backward balanced into : D1/mult/norm1/out_m_39_BRB2 D1/mult/norm1/out_m_39_BRB3 D1/mult/norm1/out_m_39_BRB4 .
+	Register(s) D1/mult/norm1/out_m_40 has(ve) been backward balanced into : D1/mult/norm1/out_m_40_BRB2 D1/mult/norm1/out_m_40_BRB3 D1/mult/norm1/out_m_40_BRB4 .
+	Register(s) D1/mult/norm1/out_m_41 has(ve) been backward balanced into : D1/mult/norm1/out_m_41_BRB2 D1/mult/norm1/out_m_41_BRB3 .
+	Register(s) D1/mult/norm1/out_m_42 has(ve) been backward balanced into : D1/mult/norm1/out_m_42_BRB1 D1/mult/norm1/out_m_42_BRB3 .
+	Register(s) D1/mult/norm1/out_m_43 has(ve) been backward balanced into : D1/mult/norm1/out_m_43_BRB2 D1/mult/norm1/out_m_43_BRB5.
+	Register(s) D1/mult/norm1/out_m_44 has(ve) been backward balanced into : D1/mult/norm1/out_m_44_BRB1 D1/mult/norm1/out_m_44_BRB4.
+	Register(s) D1/mult/out_exp_0 has(ve) been backward balanced into : D1/mult/out_exp_0_BRB2 D1/mult/out_exp_0_BRB3 D1/mult/out_exp_0_BRB4.
+	Register(s) D1/mult/out_exp_1 has(ve) been backward balanced into : D1/mult/out_exp_1_BRB2 .
+	Register(s) D1/mult/out_exp_2 has(ve) been backward balanced into : D1/mult/out_exp_2_BRB2 D1/mult/out_exp_2_BRB3 D1/mult/out_exp_2_BRB5.
+	Register(s) D1/mult/out_exp_3 has(ve) been backward balanced into : D1/mult/out_exp_3_BRB1 D1/mult/out_exp_3_BRB2 D1/mult/out_exp_3_BRB5.
+	Register(s) D1/mult/out_exp_4 has(ve) been backward balanced into : D1/mult/out_exp_4_BRB1 D1/mult/out_exp_4_BRB2 D1/mult/out_exp_4_BRB5.
+	Register(s) D1/mult/out_exp_5 has(ve) been backward balanced into : D1/mult/out_exp_5_BRB0 D1/mult/out_exp_5_BRB1 D1/mult/out_exp_5_BRB2 D1/mult/out_exp_5_BRB5.
+	Register(s) D1/mult/out_exp_6 has(ve) been backward balanced into : D1/mult/out_exp_6_BRB2 D1/mult/out_exp_6_BRB3 D1/mult/out_exp_6_BRB5.
+	Register(s) D1/mult/out_exp_7 has(ve) been backward balanced into : D1/mult/out_exp_7_BRB0 D1/mult/out_exp_7_BRB1 D1/mult/out_exp_7_BRB2 D1/mult/out_exp_7_BRB5.
+	Register(s) D1/mult/out_man_0 has(ve) been backward balanced into : D1/mult/out_man_0_BRB1 D1/mult/out_man_0_BRB3 .
+	Register(s) D1/mult/out_man_1 has(ve) been backward balanced into : D1/mult/out_man_1_BRB1 D1/mult/out_man_1_BRB3 .
+	Register(s) D1/mult/out_man_10 has(ve) been backward balanced into : D1/mult/out_man_10_BRB1 D1/mult/out_man_10_BRB3 .
+	Register(s) D1/mult/out_man_11 has(ve) been backward balanced into : D1/mult/out_man_11_BRB1 D1/mult/out_man_11_BRB3 .
+	Register(s) D1/mult/out_man_12 has(ve) been backward balanced into : D1/mult/out_man_12_BRB1 D1/mult/out_man_12_BRB3 .
+	Register(s) D1/mult/out_man_13 has(ve) been backward balanced into : D1/mult/out_man_13_BRB1 D1/mult/out_man_13_BRB3 .
+	Register(s) D1/mult/out_man_14 has(ve) been backward balanced into : D1/mult/out_man_14_BRB1 D1/mult/out_man_14_BRB3 .
+	Register(s) D1/mult/out_man_15 has(ve) been backward balanced into : D1/mult/out_man_15_BRB1 D1/mult/out_man_15_BRB3 .
+	Register(s) D1/mult/out_man_16 has(ve) been backward balanced into : D1/mult/out_man_16_BRB1 D1/mult/out_man_16_BRB3 .
+	Register(s) D1/mult/out_man_17 has(ve) been backward balanced into : D1/mult/out_man_17_BRB1 D1/mult/out_man_17_BRB3 .
+	Register(s) D1/mult/out_man_18 has(ve) been backward balanced into : D1/mult/out_man_18_BRB1 D1/mult/out_man_18_BRB3 .
+	Register(s) D1/mult/out_man_19 has(ve) been backward balanced into : D1/mult/out_man_19_BRB1 D1/mult/out_man_19_BRB3 .
+	Register(s) D1/mult/out_man_2 has(ve) been backward balanced into : D1/mult/out_man_2_BRB1 D1/mult/out_man_2_BRB3 .
+	Register(s) D1/mult/out_man_20 has(ve) been backward balanced into : D1/mult/out_man_20_BRB1 D1/mult/out_man_20_BRB3 .
+	Register(s) D1/mult/out_man_21 has(ve) been backward balanced into : D1/mult/out_man_21_BRB1 D1/mult/out_man_21_BRB3 .
+	Register(s) D1/mult/out_man_22 has(ve) been backward balanced into : D1/mult/out_man_22_BRB0 D1/mult/out_man_22_BRB1 D1/mult/out_man_22_BRB2 D1/mult/out_man_22_BRB3 D1/mult/out_man_22_BRB4.
+	Register(s) D1/mult/out_man_3 has(ve) been backward balanced into : D1/mult/out_man_3_BRB1 D1/mult/out_man_3_BRB3 .
+	Register(s) D1/mult/out_man_4 has(ve) been backward balanced into : D1/mult/out_man_4_BRB1 D1/mult/out_man_4_BRB3 .
+	Register(s) D1/mult/out_man_5 has(ve) been backward balanced into : D1/mult/out_man_5_BRB1 D1/mult/out_man_5_BRB3 .
+	Register(s) D1/mult/out_man_6 has(ve) been backward balanced into : D1/mult/out_man_6_BRB1 D1/mult/out_man_6_BRB3 .
+	Register(s) D1/mult/out_man_7 has(ve) been backward balanced into : D1/mult/out_man_7_BRB1 D1/mult/out_man_7_BRB3 .
+	Register(s) D1/mult/out_man_8 has(ve) been backward balanced into : D1/mult/out_man_8_BRB1 D1/mult/out_man_8_BRB3 .
+	Register(s) D1/mult/out_man_9 has(ve) been backward balanced into : D1/mult/out_man_9_BRB1 D1/mult/out_man_9_BRB3 .
+	Register(s) D1/recip/S0_N0/out_sign has(ve) been backward balanced into : D1/recip/S0_N0/out_sign_BRB0 D1/recip/S0_N0/out_sign_BRB1 D1/recip/S0_N0/out_sign_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_0 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_0_BRB1 D1/recip/S1_2minDN0/i_e_0_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_1 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_1_BRB1 D1/recip/S1_2minDN0/i_e_1_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_2 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_2_BRB1 D1/recip/S1_2minDN0/i_e_2_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_3 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_3_BRB1 D1/recip/S1_2minDN0/i_e_3_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_4 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_4_BRB1 D1/recip/S1_2minDN0/i_e_4_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_e_7 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_e_7_BRB1 D1/recip/S1_2minDN0/i_e_7_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_0 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_0_BRB0 D1/recip/S1_2minDN0/i_m_0_BRB1 D1/recip/S1_2minDN0/i_m_0_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_1 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_1_BRB1 D1/recip/S1_2minDN0/i_m_1_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_10 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_10_BRB1 D1/recip/S1_2minDN0/i_m_10_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_11 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_11_BRB1 D1/recip/S1_2minDN0/i_m_11_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_12 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_12_BRB1 D1/recip/S1_2minDN0/i_m_12_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_13 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_13_BRB1 D1/recip/S1_2minDN0/i_m_13_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_14 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_14_BRB1 D1/recip/S1_2minDN0/i_m_14_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_15 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_15_BRB1 D1/recip/S1_2minDN0/i_m_15_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_16 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_16_BRB1 D1/recip/S1_2minDN0/i_m_16_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_17 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_17_BRB1 D1/recip/S1_2minDN0/i_m_17_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_18 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_18_BRB1 D1/recip/S1_2minDN0/i_m_18_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_19 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_19_BRB1 D1/recip/S1_2minDN0/i_m_19_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_2 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_2_BRB1 D1/recip/S1_2minDN0/i_m_2_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_20 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_20_BRB1 D1/recip/S1_2minDN0/i_m_20_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_21 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_21_BRB1 D1/recip/S1_2minDN0/i_m_21_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_22 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_22_BRB1 D1/recip/S1_2minDN0/i_m_22_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_3 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_3_BRB1 D1/recip/S1_2minDN0/i_m_3_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_4 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_4_BRB1 D1/recip/S1_2minDN0/i_m_4_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_5 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_5_BRB1 D1/recip/S1_2minDN0/i_m_5_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_6 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_6_BRB1 D1/recip/S1_2minDN0/i_m_6_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_7 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_7_BRB1 D1/recip/S1_2minDN0/i_m_7_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_8 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_8_BRB1 D1/recip/S1_2minDN0/i_m_8_BRB2.
+	Register(s) D1/recip/S1_2minDN0/i_m_9 has(ve) been backward balanced into : D1/recip/S1_2minDN0/i_m_9_BRB1 D1/recip/S1_2minDN0/i_m_9_BRB2.
+	Register(s) D1/recip/S1_2minDN0/norm1/out_m_23 has(ve) been backward balanced into : D1/recip/S1_2minDN0/norm1/out_m_23_BRB0 D1/recip/S1_2minDN0/norm1/out_m_23_BRB1 D1/recip/S1_2minDN0/norm1/out_m_23_BRB2 D1/recip/S1_2minDN0/norm1/out_m_23_BRB3 D1/recip/S1_2minDN0/norm1/out_m_23_BRB4 D1/recip/S1_2minDN0/norm1/out_m_23_BRB5.
+	Register(s) D1/recip/S1_2minDN0/out_man_0 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_0_BRB2 D1/recip/S1_2minDN0/out_man_0_BRB3.
+	Register(s) D1/recip/S1_2minDN0/out_man_1 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_1_BRB1 D1/recip/S1_2minDN0/out_man_1_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_10 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_10_BRB1 D1/recip/S1_2minDN0/out_man_10_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_11 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_11_BRB1 D1/recip/S1_2minDN0/out_man_11_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_12 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_12_BRB1 D1/recip/S1_2minDN0/out_man_12_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_13 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_13_BRB1 D1/recip/S1_2minDN0/out_man_13_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_14 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_14_BRB1 D1/recip/S1_2minDN0/out_man_14_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_15 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_15_BRB1 D1/recip/S1_2minDN0/out_man_15_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_16 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_16_BRB1 D1/recip/S1_2minDN0/out_man_16_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_2 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_2_BRB1 D1/recip/S1_2minDN0/out_man_2_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_23 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_23_BRB0 D1/recip/S1_2minDN0/out_man_23_BRB1 D1/recip/S1_2minDN0/out_man_23_BRB2 D1/recip/S1_2minDN0/out_man_23_BRB3.
+	Register(s) D1/recip/S1_2minDN0/out_man_3 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_3_BRB1 D1/recip/S1_2minDN0/out_man_3_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_4 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_4_BRB1 D1/recip/S1_2minDN0/out_man_4_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_5 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_5_BRB1 D1/recip/S1_2minDN0/out_man_5_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_6 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_6_BRB1 D1/recip/S1_2minDN0/out_man_6_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_7 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_7_BRB1 D1/recip/S1_2minDN0/out_man_7_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_8 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_8_BRB1 D1/recip/S1_2minDN0/out_man_8_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_man_9 has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_man_9_BRB1 D1/recip/S1_2minDN0/out_man_9_BRB4.
+	Register(s) D1/recip/S1_2minDN0/out_sign has(ve) been backward balanced into : D1/recip/S1_2minDN0/out_sign_BRB0 D1/recip/S1_2minDN0/out_sign_BRB1 D1/recip/S1_2minDN0/out_sign_BRB2 D1/recip/S1_2minDN0/out_sign_BRB3.
+	Register(s) D1/recip/S1_N1/i_e_0 has(ve) been backward balanced into : D1/recip/S1_N1/i_e_0_BRB0 D1/recip/S1_N1/i_e_0_BRB1 D1/recip/S1_N1/i_e_0_BRB2 D1/recip/S1_N1/i_e_0_BRB3 D1/recip/S1_N1/i_e_0_BRB4.
+	Register(s) D1/recip/S1_N1/i_e_1 has(ve) been backward balanced into : D1/recip/S1_N1/i_e_1_BRB2 D1/recip/S1_N1/i_e_1_BRB3 .
+	Register(s) D1/recip/S1_N1/out_sign has(ve) been backward balanced into : D1/recip/S1_N1/out_sign_BRB1.
+	Register(s) D1/recip/S2_2minDN1/i_e_0 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_0_BRB1 D1/recip/S2_2minDN1/i_e_0_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_1 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_1_BRB1 D1/recip/S2_2minDN1/i_e_1_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_2 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_2_BRB1 D1/recip/S2_2minDN1/i_e_2_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_3 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_3_BRB1 D1/recip/S2_2minDN1/i_e_3_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_4 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_4_BRB1 D1/recip/S2_2minDN1/i_e_4_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_5 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_5_BRB1 D1/recip/S2_2minDN1/i_e_5_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_6 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_6_BRB1 D1/recip/S2_2minDN1/i_e_6_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_e_7 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_e_7_BRB1 D1/recip/S2_2minDN1/i_e_7_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_0 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_0_BRB0 D1/recip/S2_2minDN1/i_m_0_BRB1 D1/recip/S2_2minDN1/i_m_0_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_1 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_1_BRB1 D1/recip/S2_2minDN1/i_m_1_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_10 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_10_BRB1 D1/recip/S2_2minDN1/i_m_10_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_11 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_11_BRB1 D1/recip/S2_2minDN1/i_m_11_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_12 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_12_BRB1 D1/recip/S2_2minDN1/i_m_12_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_13 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_13_BRB1 D1/recip/S2_2minDN1/i_m_13_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_14 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_14_BRB1 D1/recip/S2_2minDN1/i_m_14_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_15 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_15_BRB1 D1/recip/S2_2minDN1/i_m_15_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_16 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_16_BRB1 D1/recip/S2_2minDN1/i_m_16_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_17 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_17_BRB1 D1/recip/S2_2minDN1/i_m_17_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_18 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_18_BRB1 D1/recip/S2_2minDN1/i_m_18_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_2 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_2_BRB1 D1/recip/S2_2minDN1/i_m_2_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_22 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_22_BRB1 D1/recip/S2_2minDN1/i_m_22_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_3 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_3_BRB1 D1/recip/S2_2minDN1/i_m_3_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_4 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_4_BRB1 D1/recip/S2_2minDN1/i_m_4_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_5 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_5_BRB1 D1/recip/S2_2minDN1/i_m_5_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_6 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_6_BRB1 D1/recip/S2_2minDN1/i_m_6_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_7 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_7_BRB1 D1/recip/S2_2minDN1/i_m_7_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_8 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_8_BRB1 D1/recip/S2_2minDN1/i_m_8_BRB2.
+	Register(s) D1/recip/S2_2minDN1/i_m_9 has(ve) been backward balanced into : D1/recip/S2_2minDN1/i_m_9_BRB1 D1/recip/S2_2minDN1/i_m_9_BRB2.
+	Register(s) D1/recip/S2_2minDN1/norm1/out_m_23 has(ve) been backward balanced into : D1/recip/S2_2minDN1/norm1/out_m_23_BRB0 D1/recip/S2_2minDN1/norm1/out_m_23_BRB1 D1/recip/S2_2minDN1/norm1/out_m_23_BRB2 D1/recip/S2_2minDN1/norm1/out_m_23_BRB3 D1/recip/S2_2minDN1/norm1/out_m_23_BRB4 D1/recip/S2_2minDN1/norm1/out_m_23_BRB5.
+	Register(s) D1/recip/S2_2minDN1/out_man_0 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_0_BRB2 D1/recip/S2_2minDN1/out_man_0_BRB3.
+	Register(s) D1/recip/S2_2minDN1/out_man_1 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_1_BRB1 D1/recip/S2_2minDN1/out_man_1_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_10 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_10_BRB1 D1/recip/S2_2minDN1/out_man_10_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_11 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_11_BRB1 D1/recip/S2_2minDN1/out_man_11_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_12 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_12_BRB1 D1/recip/S2_2minDN1/out_man_12_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_13 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_13_BRB1 D1/recip/S2_2minDN1/out_man_13_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_14 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_14_BRB1 D1/recip/S2_2minDN1/out_man_14_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_15 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_15_BRB1 D1/recip/S2_2minDN1/out_man_15_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_16 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_16_BRB1 D1/recip/S2_2minDN1/out_man_16_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_2 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_2_BRB1 D1/recip/S2_2minDN1/out_man_2_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_23 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_23_BRB0 D1/recip/S2_2minDN1/out_man_23_BRB1 D1/recip/S2_2minDN1/out_man_23_BRB2 D1/recip/S2_2minDN1/out_man_23_BRB3.
+	Register(s) D1/recip/S2_2minDN1/out_man_3 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_3_BRB1 D1/recip/S2_2minDN1/out_man_3_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_4 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_4_BRB1 D1/recip/S2_2minDN1/out_man_4_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_5 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_5_BRB1 D1/recip/S2_2minDN1/out_man_5_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_6 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_6_BRB1 D1/recip/S2_2minDN1/out_man_6_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_7 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_7_BRB1 D1/recip/S2_2minDN1/out_man_7_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_8 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_8_BRB1 D1/recip/S2_2minDN1/out_man_8_BRB4.
+	Register(s) D1/recip/S2_2minDN1/out_man_9 has(ve) been backward balanced into : D1/recip/S2_2minDN1/out_man_9_BRB1 D1/recip/S2_2minDN1/out_man_9_BRB4.
+	Register(s) M1/i_e_0 has(ve) been backward balanced into : M1/i_e_0_BRB0 .
+	Register(s) M1/i_e_1 has(ve) been backward balanced into : M1/i_e_1_BRB2 .
+	Register(s) M1/i_e_2 has(ve) been backward balanced into : M1/i_e_2_BRB1 M1/i_e_2_BRB2.
+	Register(s) M1/i_e_3 has(ve) been backward balanced into : M1/i_e_3_BRB1 M1/i_e_3_BRB2.
+	Register(s) M1/i_e_4 has(ve) been backward balanced into : M1/i_e_4_BRB1 M1/i_e_4_BRB2.
+	Register(s) M1/i_e_5 has(ve) been backward balanced into : M1/i_e_5_BRB1 M1/i_e_5_BRB2.
+	Register(s) M1/i_e_6 has(ve) been backward balanced into : M1/i_e_6_BRB1 M1/i_e_6_BRB2.
+	Register(s) M1/i_e_7 has(ve) been backward balanced into : M1/i_e_7_BRB0 M1/i_e_7_BRB1 M1/i_e_7_BRB2.
+	Register(s) M1/i_m_18 has(ve) been backward balanced into : M1/i_m_18_BRB1 M1/i_m_18_BRB2.
+	Register(s) M1/i_m_19 has(ve) been backward balanced into : M1/i_m_19_BRB1 M1/i_m_19_BRB2.
+	Register(s) M1/i_m_20 has(ve) been backward balanced into : M1/i_m_20_BRB1 M1/i_m_20_BRB2.
+	Register(s) M1/i_m_21 has(ve) been backward balanced into : M1/i_m_21_BRB1 M1/i_m_21_BRB2.
+	Register(s) M1/i_m_22 has(ve) been backward balanced into : M1/i_m_22_BRB1 M1/i_m_22_BRB2.
+	Register(s) M1/i_m_23 has(ve) been backward balanced into : M1/i_m_23_BRB1 M1/i_m_23_BRB2.
+	Register(s) M1/i_m_24 has(ve) been backward balanced into : M1/i_m_24_BRB1 M1/i_m_24_BRB2.
+	Register(s) M1/i_m_25 has(ve) been backward balanced into : M1/i_m_25_BRB1 M1/i_m_25_BRB2.
+	Register(s) M1/i_m_26 has(ve) been backward balanced into : M1/i_m_26_BRB1 M1/i_m_26_BRB2.
+	Register(s) M1/i_m_27 has(ve) been backward balanced into : M1/i_m_27_BRB1 M1/i_m_27_BRB2.
+	Register(s) M1/i_m_28 has(ve) been backward balanced into : M1/i_m_28_BRB1 M1/i_m_28_BRB2.
+	Register(s) M1/i_m_29 has(ve) been backward balanced into : M1/i_m_29_BRB1 M1/i_m_29_BRB2.
+	Register(s) M1/i_m_30 has(ve) been backward balanced into : M1/i_m_30_BRB1 M1/i_m_30_BRB2.
+	Register(s) M1/i_m_31 has(ve) been backward balanced into : M1/i_m_31_BRB1 M1/i_m_31_BRB2.
+	Register(s) M1/i_m_32 has(ve) been backward balanced into : M1/i_m_32_BRB1 M1/i_m_32_BRB2.
+	Register(s) M1/i_m_33 has(ve) been backward balanced into : M1/i_m_33_BRB1 M1/i_m_33_BRB2.
+	Register(s) M1/i_m_34 has(ve) been backward balanced into : M1/i_m_34_BRB1 M1/i_m_34_BRB2.
+	Register(s) M1/i_m_35 has(ve) been backward balanced into : M1/i_m_35_BRB1 M1/i_m_35_BRB2.
+	Register(s) M1/i_m_36 has(ve) been backward balanced into : M1/i_m_36_BRB1 M1/i_m_36_BRB2.
+	Register(s) M1/i_m_37 has(ve) been backward balanced into : M1/i_m_37_BRB1 M1/i_m_37_BRB2.
+	Register(s) M1/i_m_38 has(ve) been backward balanced into : M1/i_m_38_BRB1 M1/i_m_38_BRB2.
+	Register(s) M1/i_m_39 has(ve) been backward balanced into : M1/i_m_39_BRB1 M1/i_m_39_BRB2.
+	Register(s) M1/i_m_40 has(ve) been backward balanced into : M1/i_m_40_BRB1 M1/i_m_40_BRB2.
+	Register(s) M1/i_m_41 has(ve) been backward balanced into : M1/i_m_41_BRB1 M1/i_m_41_BRB2.
+	Register(s) M1/i_m_42 has(ve) been backward balanced into : M1/i_m_42_BRB1 M1/i_m_42_BRB2.
+	Register(s) M1/i_m_43 has(ve) been backward balanced into : M1/i_m_43_BRB1 M1/i_m_43_BRB2.
+	Register(s) M1/i_m_44 has(ve) been backward balanced into : M1/i_m_44_BRB1 M1/i_m_44_BRB2.
+	Register(s) M1/i_m_45 has(ve) been backward balanced into : M1/i_m_45_BRB1 M1/i_m_45_BRB2.
+	Register(s) M1/norm1/out_e_0 has(ve) been backward balanced into : M1/norm1/out_e_0_BRB2 M1/norm1/out_e_0_BRB3 .
+	Register(s) M1/norm1/out_e_2 has(ve) been backward balanced into : M1/norm1/out_e_2_BRB0 M1/norm1/out_e_2_BRB1 M1/norm1/out_e_2_BRB5.
+	Register(s) M1/norm1/out_e_3 has(ve) been backward balanced into : M1/norm1/out_e_3_BRB3 M1/norm1/out_e_3_BRB5.
+	Register(s) M1/norm1/out_e_4 has(ve) been backward balanced into : M1/norm1/out_e_4_BRB1 M1/norm1/out_e_4_BRB3 M1/norm1/out_e_4_BRB5.
+	Register(s) M1/norm1/out_e_5 has(ve) been backward balanced into : M1/norm1/out_e_5_BRB1 M1/norm1/out_e_5_BRB4 M1/norm1/out_e_5_BRB5.
+	Register(s) M1/norm1/out_e_6 has(ve) been backward balanced into : M1/norm1/out_e_6_BRB1 M1/norm1/out_e_6_BRB4 M1/norm1/out_e_6_BRB5.
+	Register(s) M1/norm1/out_e_7 has(ve) been backward balanced into : M1/norm1/out_e_7_BRB0 M1/norm1/out_e_7_BRB1 M1/norm1/out_e_7_BRB2 M1/norm1/out_e_7_BRB3 M1/norm1/out_e_7_BRB4 M1/norm1/out_e_7_BRB5.
+	Register(s) M1/norm1/out_m_23 has(ve) been backward balanced into : M1/norm1/out_m_23_BRB2 M1/norm1/out_m_23_BRB3 M1/norm1/out_m_23_BRB4 .
+	Register(s) M1/norm1/out_m_24 has(ve) been backward balanced into : M1/norm1/out_m_24_BRB2 M1/norm1/out_m_24_BRB3 M1/norm1/out_m_24_BRB4 .
+	Register(s) M1/norm1/out_m_25 has(ve) been backward balanced into : M1/norm1/out_m_25_BRB2 M1/norm1/out_m_25_BRB3 M1/norm1/out_m_25_BRB4 .
+	Register(s) M1/norm1/out_m_26 has(ve) been backward balanced into : M1/norm1/out_m_26_BRB2 M1/norm1/out_m_26_BRB3 M1/norm1/out_m_26_BRB4 .
+	Register(s) M1/norm1/out_m_27 has(ve) been backward balanced into : M1/norm1/out_m_27_BRB2 M1/norm1/out_m_27_BRB3 M1/norm1/out_m_27_BRB4 .
+	Register(s) M1/norm1/out_m_28 has(ve) been backward balanced into : M1/norm1/out_m_28_BRB2 M1/norm1/out_m_28_BRB3 M1/norm1/out_m_28_BRB4 .
+	Register(s) M1/norm1/out_m_29 has(ve) been backward balanced into : M1/norm1/out_m_29_BRB2 M1/norm1/out_m_29_BRB3 M1/norm1/out_m_29_BRB4 .
+	Register(s) M1/norm1/out_m_30 has(ve) been backward balanced into : M1/norm1/out_m_30_BRB2 M1/norm1/out_m_30_BRB3 M1/norm1/out_m_30_BRB4 .
+	Register(s) M1/norm1/out_m_31 has(ve) been backward balanced into : M1/norm1/out_m_31_BRB2 M1/norm1/out_m_31_BRB3 M1/norm1/out_m_31_BRB4 .
+	Register(s) M1/norm1/out_m_32 has(ve) been backward balanced into : M1/norm1/out_m_32_BRB2 M1/norm1/out_m_32_BRB3 M1/norm1/out_m_32_BRB4 .
+	Register(s) M1/norm1/out_m_33 has(ve) been backward balanced into : M1/norm1/out_m_33_BRB2 M1/norm1/out_m_33_BRB3 M1/norm1/out_m_33_BRB4 .
+	Register(s) M1/norm1/out_m_34 has(ve) been backward balanced into : M1/norm1/out_m_34_BRB2 M1/norm1/out_m_34_BRB3 M1/norm1/out_m_34_BRB4 .
+	Register(s) M1/norm1/out_m_35 has(ve) been backward balanced into : M1/norm1/out_m_35_BRB2 M1/norm1/out_m_35_BRB3 M1/norm1/out_m_35_BRB4 .
+	Register(s) M1/norm1/out_m_36 has(ve) been backward balanced into : M1/norm1/out_m_36_BRB2 M1/norm1/out_m_36_BRB3 M1/norm1/out_m_36_BRB4 .
+	Register(s) M1/norm1/out_m_37 has(ve) been backward balanced into : M1/norm1/out_m_37_BRB2 M1/norm1/out_m_37_BRB3 M1/norm1/out_m_37_BRB4 .
+	Register(s) M1/norm1/out_m_38 has(ve) been backward balanced into : M1/norm1/out_m_38_BRB2 M1/norm1/out_m_38_BRB3 M1/norm1/out_m_38_BRB4 .
+	Register(s) M1/norm1/out_m_39 has(ve) been backward balanced into : M1/norm1/out_m_39_BRB2 M1/norm1/out_m_39_BRB3 M1/norm1/out_m_39_BRB4 .
+	Register(s) M1/norm1/out_m_40 has(ve) been backward balanced into : M1/norm1/out_m_40_BRB2 M1/norm1/out_m_40_BRB3 M1/norm1/out_m_40_BRB4 .
+	Register(s) M1/norm1/out_m_41 has(ve) been backward balanced into : M1/norm1/out_m_41_BRB2 M1/norm1/out_m_41_BRB3 .
+	Register(s) M1/norm1/out_m_42 has(ve) been backward balanced into : M1/norm1/out_m_42_BRB1 M1/norm1/out_m_42_BRB3 .
+	Register(s) M1/norm1/out_m_43 has(ve) been backward balanced into : M1/norm1/out_m_43_BRB2 M1/norm1/out_m_43_BRB5.
+	Register(s) M1/norm1/out_m_44 has(ve) been backward balanced into : M1/norm1/out_m_44_BRB1 M1/norm1/out_m_44_BRB4.
+	Register(s) M1/out_exp_0 has(ve) been backward balanced into : M1/out_exp_0_BRB2 M1/out_exp_0_BRB3 M1/out_exp_0_BRB4.
+	Register(s) M1/out_exp_1 has(ve) been backward balanced into : M1/out_exp_1_BRB2 .
+	Register(s) M1/out_exp_2 has(ve) been backward balanced into : M1/out_exp_2_BRB2 M1/out_exp_2_BRB3 M1/out_exp_2_BRB5.
+	Register(s) M1/out_exp_3 has(ve) been backward balanced into : M1/out_exp_3_BRB1 M1/out_exp_3_BRB2 M1/out_exp_3_BRB5.
+	Register(s) M1/out_exp_4 has(ve) been backward balanced into : M1/out_exp_4_BRB1 M1/out_exp_4_BRB2 M1/out_exp_4_BRB5.
+	Register(s) M1/out_exp_5 has(ve) been backward balanced into : M1/out_exp_5_BRB0 M1/out_exp_5_BRB1 M1/out_exp_5_BRB2 M1/out_exp_5_BRB5.
+	Register(s) M1/out_exp_6 has(ve) been backward balanced into : M1/out_exp_6_BRB2 M1/out_exp_6_BRB3 M1/out_exp_6_BRB5.
+	Register(s) M1/out_exp_7 has(ve) been backward balanced into : M1/out_exp_7_BRB0 M1/out_exp_7_BRB1 M1/out_exp_7_BRB2 M1/out_exp_7_BRB5.
+	Register(s) M1/out_man_0 has(ve) been backward balanced into : M1/out_man_0_BRB1 M1/out_man_0_BRB3 .
+	Register(s) M1/out_man_1 has(ve) been backward balanced into : M1/out_man_1_BRB1 M1/out_man_1_BRB3 .
+	Register(s) M1/out_man_10 has(ve) been backward balanced into : M1/out_man_10_BRB1 M1/out_man_10_BRB3 .
+	Register(s) M1/out_man_11 has(ve) been backward balanced into : M1/out_man_11_BRB1 M1/out_man_11_BRB3 .
+	Register(s) M1/out_man_12 has(ve) been backward balanced into : M1/out_man_12_BRB1 M1/out_man_12_BRB3 .
+	Register(s) M1/out_man_13 has(ve) been backward balanced into : M1/out_man_13_BRB1 M1/out_man_13_BRB3 .
+	Register(s) M1/out_man_14 has(ve) been backward balanced into : M1/out_man_14_BRB1 M1/out_man_14_BRB3 .
+	Register(s) M1/out_man_15 has(ve) been backward balanced into : M1/out_man_15_BRB1 M1/out_man_15_BRB3 .
+	Register(s) M1/out_man_16 has(ve) been backward balanced into : M1/out_man_16_BRB1 M1/out_man_16_BRB3 .
+	Register(s) M1/out_man_17 has(ve) been backward balanced into : M1/out_man_17_BRB1 M1/out_man_17_BRB3 .
+	Register(s) M1/out_man_18 has(ve) been backward balanced into : M1/out_man_18_BRB1 M1/out_man_18_BRB3 .
+	Register(s) M1/out_man_19 has(ve) been backward balanced into : M1/out_man_19_BRB1 M1/out_man_19_BRB3 .
+	Register(s) M1/out_man_2 has(ve) been backward balanced into : M1/out_man_2_BRB1 M1/out_man_2_BRB3 .
+	Register(s) M1/out_man_20 has(ve) been backward balanced into : M1/out_man_20_BRB1 M1/out_man_20_BRB3 .
+	Register(s) M1/out_man_21 has(ve) been backward balanced into : M1/out_man_21_BRB1 M1/out_man_21_BRB3 .
+	Register(s) M1/out_man_22 has(ve) been backward balanced into : M1/out_man_22_BRB0 M1/out_man_22_BRB1 M1/out_man_22_BRB2 M1/out_man_22_BRB3 M1/out_man_22_BRB4.
+	Register(s) M1/out_man_3 has(ve) been backward balanced into : M1/out_man_3_BRB1 M1/out_man_3_BRB3 .
+	Register(s) M1/out_man_4 has(ve) been backward balanced into : M1/out_man_4_BRB1 M1/out_man_4_BRB3 .
+	Register(s) M1/out_man_5 has(ve) been backward balanced into : M1/out_man_5_BRB1 M1/out_man_5_BRB3 .
+	Register(s) M1/out_man_6 has(ve) been backward balanced into : M1/out_man_6_BRB1 M1/out_man_6_BRB3 .
+	Register(s) M1/out_man_7 has(ve) been backward balanced into : M1/out_man_7_BRB1 M1/out_man_7_BRB3 .
+	Register(s) M1/out_man_8 has(ve) been backward balanced into : M1/out_man_8_BRB1 M1/out_man_8_BRB3 .
+	Register(s) M1/out_man_9 has(ve) been backward balanced into : M1/out_man_9_BRB1 M1/out_man_9_BRB3 .
+Unit <ieee754> processed.
+Replicating register status_0 to handle IOB=TRUE attribute
+
+FlipFlop D1/recip/S1_DN0/out_exp_7 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1752
+ Flip-Flops                                            : 1752
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ieee754.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4184
+#      GND                         : 1
+#      INV                         : 27
+#      LUT1                        : 46
+#      LUT2                        : 196
+#      LUT3                        : 504
+#      LUT4                        : 225
+#      LUT5                        : 757
+#      LUT6                        : 1884
+#      MUXCY                       : 258
+#      MUXF7                       : 19
+#      VCC                         : 1
+#      XORCY                       : 266
+# FlipFlops/Latches                : 1752
+#      FD                          : 589
+#      FDE                         : 1130
+#      FDRE                        : 23
+#      FDSE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 105
+#      IBUF                        : 67
+#      OBUF                        : 38
+# DSPs                             : 14
+#      DSP48E1                     : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1568  out of  126800     1%  
+ Number of Slice LUTs:                 3639  out of  63400     5%  
+    Number used as Logic:              3639  out of  63400     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4041
+   Number with an unused Flip Flop:    2473  out of   4041    61%  
+   Number with an unused LUT:           402  out of   4041     9%  
+   Number of fully used LUT-FF pairs:  1166  out of   4041    28%  
+   Number of unique control sets:        33
+
+IO Utilization: 
+ Number of IOs:                         106
+ Number of bonded IOBs:                 106  out of    210    50%  
+    IOB Flip Flops/Latches:             184
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRL/BUFHCEs:         1  out of    128     0%  
+ Number of DSP48E1s:                     14  out of    240     5%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1760  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 7.243ns (Maximum Frequency: 138.068MHz)
+   Minimum input arrival time before clock: 2.646ns
+   Maximum output required time after clock: 1.033ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.243ns (frequency: 138.068MHz)
+  Total number of paths / destination ports: 13172422 / 2657
+-------------------------------------------------------------------------
+Delay:               7.243ns (Levels of Logic = 6)
+  Source:            D1/recip/S1_N1/out_exp_7 (FF)
+  Destination:       D1/mult/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT (DSP)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: D1/recip/S1_N1/out_exp_7 to D1/mult/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.361   0.530  D1/recip/S1_N1/out_exp_7 (D1/recip/S1_N1/out_exp_7)
+     LUT3:I0->O            1   0.097   0.295  D1/recip/S2_DN1/GND_5_o_INV_74_o_SW0 (N180)
+     LUT6:I5->O            2   0.097   0.284  D1/recip/S2_DN1/GND_5_o_INV_74_o (D1/recip/S2_DN1/GND_5_o_INV_74_o)
+     DSP48E1:A23->PCOUT47    1   2.970   0.000  D1/recip/S2_N2/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT (D1/recip/S2_N2/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT_PCOUT_to_Mmult_GND_5_o_GND_5_o_MuLt_9_OUT1_PCIN_47)
+     DSP48E1:PCIN47->P29    2   1.107   0.299  D1/recip/S2_N2/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT1 (D1/recip/S2_N2/GND_5_o_GND_5_o_MuLt_9_OUT<46>)
+     LUT6:I5->O           51   0.097   0.405  D1/recip/S2_N2/GND_5_o_GND_5_o_AND_582_o9 (D1/recip/S2_N2/GND_5_o_GND_5_o_AND_582_o)
+     LUT5:I4->O            1   0.097   0.279  D1/recip/S2_N2/Mmux_n0054171 (D1/recip/S2_N2/n0054<39>)
+     DSP48E1:B16               0.324          D1/mult/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT
+    ----------------------------------------
+    Total                      7.243ns (5.150ns logic, 2.093ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 3415 / 473
+-------------------------------------------------------------------------
+Offset:              2.646ns (Levels of Logic = 4)
+  Source:            in2<25> (PAD)
+  Destination:       M1/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT (DSP)
+  Destination Clock: clk rising
+
+  Data Path: in2<25> to M1/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.530  in2_25_IBUF (in2_25_IBUF)
+     LUT3:I0->O            1   0.097   0.295  GND_1_o_GND_1_o_OR_279_o<30>_SW0 (N4)
+     LUT6:I5->O           41   0.097   0.791  GND_1_o_GND_1_o_OR_279_o<30> (GND_1_o_GND_1_o_OR_279_o)
+     LUT5:I0->O           48   0.097   0.389  _n0428_inv1 (_n0428_inv)
+     DSP48E1:CEB2              0.349          M1/Mmult_GND_5_o_GND_5_o_MuLt_9_OUT
+    ----------------------------------------
+    Total                      2.646ns (0.641ns logic, 2.005ns route)
+                                       (24.2% logic, 75.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              1.033ns (Levels of Logic = 2)
+  Source:            status_0_1 (FF)
+  Destination:       status<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: status_0_1 to status<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             1   0.361   0.279  status_0_1 (status_0_1)
+     INV:I->O              1   0.113   0.279  status<0>_inv1_INV_0 (status_5_OBUF)
+     OBUF:I->O                 0.000          status_5_OBUF (status<5>)
+    ----------------------------------------
+    Total                      1.033ns (0.474ns logic, 0.559ns route)
+                                       (45.9% logic, 54.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.243|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 37.60 secs
+ 
+--> 
+
+Total memory usage is 380020 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  422 (   0 filtered)
+Number of infos    :   44 (   0 filtered)
+

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="701" delta="new" ><arg fmt="%s" index="1">PAD symbol &quot;clk&quot;</arg> has an undefined IOSTANDARD.
+</msg>
+
+<msg type="warning" file="LIT" num="702" delta="new" ><arg fmt="%s" index="1">PAD symbol &quot;clk&quot;</arg> is not constrained (LOC) to a specific location.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_0</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_0</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_5</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_5</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_6</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_6</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_7</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_7</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_8</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_8</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_9</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_9</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_19</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_18</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_17</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_22</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_21</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_20</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_29</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_29</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_28</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_28</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_27</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_27</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_26</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_26</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_25</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_25</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_24</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_24</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_23</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_23</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_31</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in2_in_30</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in2_in_30</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_12</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_12</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_11</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_11</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_10</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_10</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_19</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_19</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_18</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_18</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_17</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_17</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_16</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_16</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_15</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_15</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_14</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_14</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_13</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_13</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_22</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_22</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_21</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_21</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_20</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_20</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_29</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_29</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_28</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_28</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_27</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_27</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_26</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_26</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_25</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_25</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_24</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_24</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_23</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_23</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_31</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_31</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">divider_in1_in_30</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="new" >The register &quot;<arg fmt="%s" index="1">adder_in1_in_30</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_0_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_1_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_2_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_3_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_4_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_5_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_6_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_7_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_8_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in1_in_9_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_19_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_18_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_17_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_22_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_21_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_20_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_29_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_28_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_27_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_26_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_25_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_24_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_23_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">divider_in2_in_31_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in2_in_30_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_12_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_11_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_10_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_19_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_18_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_17_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_16_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_15_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_14_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_13_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_22_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_21_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_20_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_29_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_28_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_27_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_26_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_25_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_24_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_23_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_31_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+<msg type="error" file="Pack" num="2920" delta="new" >The ZHOLD_DELAY symbol &quot;<arg fmt="%s" index="1">adder_in1_in_30_ML_ZHOLD_DELAY</arg>&quot; failed to join an ILOGICE3 component as required.  <arg fmt="%z" index="2">Failed to find a routable solution for an I/O component.</arg>
+</msg>
+
+</messages>
+

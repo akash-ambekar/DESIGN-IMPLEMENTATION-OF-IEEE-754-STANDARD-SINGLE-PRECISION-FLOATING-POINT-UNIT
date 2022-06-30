@@ -1,0 +1,341 @@
+Release 14.5 Map P.58f (nt)
+Xilinx Map Application Log File for Design 'ieee754'
+
+Design Information
+------------------
+Command Line   : map -intstyle pa -w -pr b -r 4 -ol high -xe n -ntd ieee754.ngd 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Sun Apr 10 17:04:51 2022
+
+WARNING:LIT:701 - PAD symbol "clk" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "clk" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:2548 - The register "adder_in1_in_0" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_0" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_1" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_1" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_2" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_2" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_3" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_3" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_4" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_4" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_5" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_5" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_6" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_6" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_7" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_7" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_8" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_8" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_9" has the property IOB=TRUE, but
+   was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_9" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_19" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_18" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_17" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_22" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_21" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_20" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_29" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_29" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_28" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_28" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_27" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_27" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_26" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_26" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_25" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_25" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_24" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_24" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_23" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_23" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_31" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in2_in_30" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in2_in_30" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_12" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_12" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_11" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_11" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_10" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_10" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_19" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_19" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_18" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_18" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_17" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_17" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_16" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_16" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_15" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_15" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_14" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_14" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_13" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_13" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_22" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_22" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_21" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_21" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_20" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_20" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_29" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_29" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_28" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_28" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_27" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_27" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_26" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_26" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_25" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_25" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_24" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_24" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_23" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_23" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_31" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_31" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "divider_in1_in_30" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+WARNING:Pack:2548 - The register "adder_in1_in_30" has the property IOB=TRUE,
+   but was not packed into the ILOGIC component. 
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_0_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_1_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_2_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_3_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_4_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_5_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_6_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_7_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_8_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in1_in_9_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_19_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_18_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_17_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_22_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_21_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_20_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_29_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_28_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_27_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_26_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_25_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_24_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_23_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "divider_in2_in_31_ML_ZHOLD_DELAY"
+   failed to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in2_in_30_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_12_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_11_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_10_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_19_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_18_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_17_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_16_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_15_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_14_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_13_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_22_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_21_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_20_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_29_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_28_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_27_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_26_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_25_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_24_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_23_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_31_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+ERROR:Pack:2920 - The ZHOLD_DELAY symbol "adder_in1_in_30_ML_ZHOLD_DELAY" failed
+   to join an ILOGICE3 component as required.  Failed to find a routable
+   solution for an I/O component.
+
+Mapping completed.
+See MAP report file "ieee754.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :  47
+Number of warnings :  89
